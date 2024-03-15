@@ -1,0 +1,322 @@
+@media(max-width:1440px){
+    nav{
+        height: 40px;
+    }
+    .consegna span{
+        font-size: 10px;
+    }
+    .nav-left{
+        width: 65%;
+    }
+    .nav-left img{
+        height: 30px;
+        margin-left: 5px;
+    }
+    .consegna i{
+        top: 5px;
+    }
+    nav select{
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+        border: 2px solid #ff9900;
+    }
+    .search-bar input{
+        height: 30px;
+        width: 450px;
+        font-size: 10px;
+    }
+    .search-bar i{
+        height: 30px;
+        width: 30px;
+        font-size: 100%;
+    padding-top: 8px;
+    }
+    .nav-right p{
+        font-size: 10px;
+    }
+    .nav-right span{
+        font-size: 12px;
+    }
+    .nav-right-option i{
+        font-size: 120%;
+    }
+   
+    /*banner--------------------------------------------------------*/
+    
+    .banner{
+        height: 30px;
+    }
+    .banner-left{
+        width: 65%;
+    }
+    .banner-left p{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .banner-right{
+        display: flex;
+        margin-left: 1%;
+    }
+    .banner-right p{
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+    /*offers---------------------------------------------------------------*/
+
+    .offers{ 
+        grid-template-columns: 20% 20% 20% 20%;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-left: 20px;
+        bottom: 360px;
+    }
+    .offer-container{
+        height: 350px;
+    }
+    .offer-container img{
+        width: 90%;
+        height: 220px;
+    }
+    .offer-container span{
+        top: 20px;
+        font-size: 15px;
+    }
+    
+    .offer-container h2{
+        font-size: 18px;
+    }
+    .container1{
+        height: 130;
+       padding-bottom: 50px;
+    }
+    .container2{
+        height: 200;
+        margin-top: 20px;
+        padding-bottom: 19px;
+    }
+    .container2 img{
+        width: 90%;
+        height: 130px;
+    }
+    .container2 p{
+        top: 10px;
+        font-size: 14px;
+    }
+    #price{
+        font-size: 18px;
+    }
+    .container1 h2{
+        font-size: 16px
+    }
+    .container1 button{
+        left: 5px;
+        width: 95%;
+        font-size: 12px
+    }
+    .scopri{
+        width: 95%;
+        height: 260px;
+        margin-top: 10px;
+        left: 10px;
+    }
+    .offerte-cerchio{
+        top: 25px;
+    }
+    .offerta-grid-immagini{
+        width: 95%;
+        height: 320px;
+        left: 10px;
+        grid-template-columns: 20% 20% 20% 20%;
+        column-gap: 20px;
+    }
+    .contenitore-grid-immagini h2{
+        font-size: 18px;
+    }
+    .contenitore-grid-immagini span{
+        font-size: 14px;
+        top: 50px;
+    }
+    .contenitore-grid-immagini p{
+        font-size: 14px;
+    }
+    .images-grid{
+        grid-template-columns: 45% 45%;
+        column-gap: 5px;
+        row-gap: 5x;
+        top: 30px;
+    }
+    .images-grid img{
+        width: 100%;
+    }
+    #singolo{
+        height: 60%;
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+    
+    .offerte-lampo{
+        height: 320px;
+        width: 95%;
+        left: 10px;
+    }
+    .offerte-lampo h2{
+        font-size: 20px;
+    }
+    .offerta-lampo{
+        height: 240px;
+        width: 220px;
+    }
+    .contenuto{
+        position: relative;
+        left: 20px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .contenuto img{
+        height: 160px;
+        width: 160px;
+    }
+    .contenuto p{
+        font-size: 12px;
+    }
+    .red span{
+        padding: 3px;
+    }
+    .discount{
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+    #prezzo{
+        font-size: 110%;
+    }
+    .discount p{
+        font-size: 12px;
+    }
+    .smaller-img{
+        height: 160px;
+        margin-top: 10px;
+    }
+    /*footer-----------------------------------------------------------------------------*/
+    
+    footer a button{
+       text-align: center;
+    }
+    .footer-info{
+      height: 450px;
+      font-size: 14px;
+     
+    }
+    
+    .footer-country{
+        width: 100%;
+        height: 150px;
+        background: #232f3e;
+        position: relative;
+        bottom: 200px;
+    }
+    .footer-country p{
+        font-size: 14px;
+    }
+    .footer-country p:hover{
+        cursor: pointer;
+        color: #fff;
+        text-decoration: underline;
+    }
+    .footer-country img{
+        width: 100px;
+        background: #547093;;
+    }
+    .footer-country-container{
+        position: relative;
+        top: 30px;
+        width: 70%;
+        height: 100%;
+        text-align: center;
+        margin-left: 10%;
+    
+    }
+    .country-list{
+        display: flex;
+        justify-content: space-evenly;
+        color: #abaaaa;
+        text-align: center;
+        height:auto;
+        width: 1200px;
+        word-wrap: break-word;
+        margin-top: 10px;
+    }
+    .block{
+        display: flex;
+        color: #abaaaa;
+       justify-content: center;
+    }
+    .block p{
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .footer-grid{
+        background: #000;
+        width: 100%;
+        height: 190px;
+       position: relative;
+       bottom: 200px;
+    }
+    .footer-grid-container p{
+        color: #abaaaa;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .footer-grid-container span{
+        color: #fff;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .footer-grid-container:hover > p{
+        text-decoration: underline;
+    }
+    .footer-grid-container:hover > span{
+        text-decoration: underline;
+    }
+    .footer-grid-list{
+        display: grid;
+        grid-template-columns: 150px 120px 120px 120px 120px;
+        column-gap: 50px;
+        row-gap: 20px;
+        position: relative;
+        top: 20px;
+        left: 320px;
+    }
+    .footer-legal{
+        background: #000;
+        position: relative;
+        bottom: 200px;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 200px;
+    }
+    .legal-row{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 50px;
+    }
+    .legal-row p{
+        color: #fff;
+        font-size: 13px;
+        position: relative;
+        margin-right: 10px;
+    }
+    .second-row{
+        margin-top: 20px;
+    }
+    .primary-row p:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
